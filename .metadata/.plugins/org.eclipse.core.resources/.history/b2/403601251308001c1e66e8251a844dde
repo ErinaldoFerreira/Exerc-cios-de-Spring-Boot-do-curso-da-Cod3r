@@ -1,0 +1,10 @@
+package br.com.cod3r.exerciciossb.model.entities;
+
+@Enti
+public class Produto {
+	
+	private int id;
+	private String nome;
+	
+
+}

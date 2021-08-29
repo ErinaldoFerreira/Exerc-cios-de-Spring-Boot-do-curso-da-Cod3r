@@ -1,0 +1,30 @@
+package br.com.cod3r.exerciciossb.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/metodos")
+public class MetodosHttpController {
+	
+	public String get() {
+		return "Requeisição GET";
+	}
+	
+	public String post() {
+		return "Requeisição POST";
+	}
+	
+	public String put() {
+		return "Requeisição PUT";
+	}
+	
+	public String patch() {
+		return "Requeisição PATCH";
+	}
+	
+	public String delete() {
+		return "Requeisição DELETE";
+	}
+
+}
